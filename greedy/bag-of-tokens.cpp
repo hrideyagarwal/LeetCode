@@ -11,7 +11,7 @@ if(power>=tokens[l]){
 power-= tokens[l];
 score++; l++;
 }
-else {
+else if(score>0){
     power+=tokens[r];
     score--;r--;
 }
