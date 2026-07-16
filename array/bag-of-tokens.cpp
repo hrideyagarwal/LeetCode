@@ -11,10 +11,11 @@ if(power>=tokens[l]){
 power-= tokens[l];
 score++; l++;
 }
-else if(score>0){
+else if(power<tokens[l] && score>0){
     power+=tokens[r];
     score--;r--;
 }
+else break;
 maxscore=max(maxscore,score);
         }
         if(maxscore<0) maxscore=0;
