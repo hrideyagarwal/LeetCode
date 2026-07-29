@@ -1,7 +1,5 @@
 class Solution {
-public:
-    int maxProduct(vector<int>& nums) {
-      class Solution {
+
 public:
     int maxProduct(vector<int>& nums) {
         int ans = nums[0];
@@ -27,5 +25,5 @@ public:
     }
       
     
-}}};
+};
     
